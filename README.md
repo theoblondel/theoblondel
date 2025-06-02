@@ -1,6 +1,5 @@
-<h1 align="center">k. — SlyAdmin 🕶️</h1>
+<h1 align="left">k. — SlyAdmin 🎩</h1>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/khazvek/khazvek/output/github-contribution-grid-snake.svg" alt="snake animation" />
 </p>
 
 ---
@@ -18,14 +17,6 @@
 - 🐍 **SlyPanel** – Full local web panel for bot control & bump automation  
 - 🔞 **NSFW Terminal** – Landing page in CLI style with hidden access  
 - 🎲 **SlyCoin** – Community crypto & tipping bot
-
----
-
-### Contribution Grid
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/khazvek/khazvek/output/github-contribution-grid-snake.svg" />
-</p>
 
 ---
 
