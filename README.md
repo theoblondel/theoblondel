@@ -1,26 +1,7 @@
-<h1 align="left">k. — SlyAdmin 🎩</h1>
-<p align="center">
-</p>
+## k. — SlyAdmin 🎩  
+*Quiet nerd & independent creator*
 
----
-
-### 💀 About Me
-
-> **khazvek** aka `K.>>`  
-> Founder of SlyClub.
-
----
-
-### 📡 Projects
-
-- 💬 **SlyBot** – Discord AI assistant & moderation core  
-- 🐍 **SlyPanel** – Full local web panel for bot control & bump automation  
-- 🔞 **NSFW Terminal** – Landing page in CLI style with hidden access  
-- 🎲 **SlyCoin** – Community crypto & tipping bot
-
----
-
-### 🧠 Quote
-
-> *“If it’s hidden, I build it. If it’s public, I already left.”*  
-> — `khazvek`  
+**About me**  
+khazvek (aka K.), founder of SlyClub.  
+I've been working for 7 years across development, design, and marketing — in both **SFW** and **NSFW** projects.  
+I like to explore, build, and stay in control of what I create — even if it’s not always perfect.
