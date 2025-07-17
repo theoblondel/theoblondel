@@ -1,4 +1,4 @@
-# 👋 Hello, I'm Théo Blondel
+# 👋 Hello, I'm Théo
 
 🎨 Mediamatician • 🎬 Creator • 🧠 Curious Mind
 
