@@ -1,7 +1,26 @@
-## k. — SlyAdmin 🎩  
-*Quiet nerd & independent creator*
+# 👋 Hello, I'm Théo Blondel
 
-**About me**  
-khazvek (aka K.), founder of SlyClub.  
-I've been working for 7 years across development, design, and marketing — in both **SFW** and **NSFW** projects.  
-I like to explore, build, and stay in control of what I create — even if it’s not always perfect.
+🎨 Mediamatician • 🎬 Creator • 🧠 Curious Mind
+
+I'm a Swiss-based creative technologist who blends **design**, **code**, and **storytelling**.  
+From UI/UX and branding to web apps, automation, and motion graphics — I love crafting ideas that work and look good.
+
+---
+
+## 🔧 Currently Working On
+
+- 🛠 My own frontend framework: [KauryUI](https://kauryui.org)
+- 🚀 HugoBoost – a productivity booster app for Windows
+- 🔒 Ethical hacking + automation tools (open-source soon!)
+- 🎥 Visual storytelling through short films & posters
+
+---
+
+## 🧰 Toolbox
+
+`HTML` • `CSS` • `JavaScript` • `React` • `Node.js`  
+`Python` • `Electron` • `Docker` • `Figma` • `Adobe CC` • `Notion`
+
+---
+
+> “Create until your ideas feel real.”  
