@@ -11,7 +11,6 @@ From UI/UX and branding to web apps, automation, and motion graphics — I love 
 
 - 🛠 My own frontend framework: [KauryUI](https://kauryui.org)
 - 🚀 HugoBoost – a productivity booster app for Windows
-- 🔒 Ethical hacking + automation tools (open-source soon!)
 - 🎥 Visual storytelling through short films & posters
 
 ---
