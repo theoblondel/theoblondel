@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-label="Théo Blondel — Creative Technologist">
+  <defs>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="50%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#f472b6"/>
+    </linearGradient>
+    <linearGradient id="brandMove" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#8b5cf6"><animate attributeName="stop-color" dur="8s" repeatCount="indefinite" values="#8b5cf6;#38bdf8;#f472b6;#8b5cf6"/></stop>
+      <stop offset="100%" stop-color="#38bdf8"><animate attributeName="stop-color" dur="8s" repeatCount="indefinite" values="#38bdf8;#f472b6;#8b5cf6;#38bdf8"/></stop>
+    </linearGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="60"/></filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#1d1d2e" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="fade" cx="50%" cy="50%" r="65%">
+      <stop offset="0%" stop-color="#fff" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <mask id="gridMask"><rect width="1200" height="380" fill="url(#fade)"/></mask>
+    <clipPath id="frame"><rect width="1200" height="380" rx="24"/></clipPath>
+  </defs>
+  <style>
+    .orb { transform-box: fill-box; transform-origin: center; }
+    .o1 { animation: drift1 14s ease-in-out infinite; }
+    .o2 { animation: drift2 18s ease-in-out infinite; }
+    .o3 { animation: drift3 16s ease-in-out infinite; }
+    @keyframes drift1 { 0%,100% { transform: translate(0,0) scale(1); } 50% { transform: translate(180px,60px) scale(1.2); } }
+    @keyframes drift2 { 0%,100% { transform: translate(0,0) scale(1.1); } 50% { transform: translate(-200px,-40px) scale(.9); } }
+    @keyframes drift3 { 0%,100% { transform: translate(0,0); } 50% { transform: translate(-80px,70px); } }
+    .up { opacity: 0; animation: up .9s cubic-bezier(.2,.8,.2,1) forwards; }
+    .d1 { animation-delay: .1s; } .d2 { animation-delay: .35s; } .d3 { animation-delay: .6s; } .d4 { animation-delay: .85s; }
+    @keyframes up { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: translateY(0); } }
+    .caret { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    .scan { animation: scan 6s linear infinite; }
+    @keyframes scan { from { transform: translateY(-40px); } to { transform: translateY(420px); } }
+    .pulse { animation: pulse 2s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    @keyframes pulse { 0%,100% { opacity: 1; transform: scale(1); } 50% { opacity: .4; transform: scale(1.6); } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } .up { opacity: 1; } }
+  </style>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="380" fill="#07070d"/>
+    <g filter="url(#blur)" opacity=".75">
+      <circle class="orb o1" cx="220" cy="120" r="170" fill="#8b5cf6"/>
+      <circle class="orb o2" cx="980" cy="270" r="190" fill="#38bdf8" opacity=".7"/>
+      <circle class="orb o3" cx="760" cy="40" r="120" fill="#f472b6" opacity=".55"/>
+    </g>
+    <rect width="1200" height="380" fill="url(#grid)" mask="url(#gridMask)" opacity=".7"/>
+    <rect class="scan" width="1200" height="2" fill="url(#brand)" opacity=".25"/>
+
+    <g font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="15" fill="#9a9ab5">
+      <text class="up d1" x="80" y="92"><tspan fill="#8b5cf6">~/</tspan>theoblondel <tspan fill="#38bdf8">❯</tspan> whoami</text>
+    </g>
+    <text class="up d2" x="76" y="190" font-family="'Inter','Segoe UI',system-ui,-apple-system,Helvetica,Arial,sans-serif" font-size="92" font-weight="800" letter-spacing="-3" fill="url(#brandMove)">Théo Blondel</text>
+    <text class="up d3" x="80" y="240" font-family="'Inter','Segoe UI',system-ui,-apple-system,Helvetica,Arial,sans-serif" font-size="26" font-weight="500" fill="#f4f4fb">Creative technologist — design, code &amp; motion<tspan class="caret" fill="#38bdf8">▍</tspan></text>
+
+    <g class="up d4" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="14"><g transform="translate(80,280)"><rect width="103" height="30" rx="15" fill="#8b5cf6" fill-opacity=".12" stroke="#8b5cf6" stroke-opacity=".55"/><text x="52" y="20" text-anchor="middle" fill="#8b5cf6" letter-spacing="1">WEB APPS</text></g><g transform="translate(195.2,280)"><rect width="94" height="30" rx="15" fill="#38bdf8" fill-opacity=".12" stroke="#38bdf8" stroke-opacity=".55"/><text x="47" y="20" text-anchor="middle" fill="#38bdf8" letter-spacing="1">UI / UX</text></g><g transform="translate(301.0,280)"><rect width="103" height="30" rx="15" fill="#f472b6" fill-opacity=".12" stroke="#f472b6" stroke-opacity=".55"/><text x="52" y="20" text-anchor="middle" fill="#f472b6" letter-spacing="1">BRANDING</text></g><g transform="translate(416.2,280)"><rect width="84" height="30" rx="15" fill="#8b5cf6" fill-opacity=".12" stroke="#8b5cf6" stroke-opacity=".55"/><text x="42" y="20" text-anchor="middle" fill="#8b5cf6" letter-spacing="1">MOTION</text></g><g transform="translate(512.6,280)"><rect width="122" height="30" rx="15" fill="#38bdf8" fill-opacity=".12" stroke="#38bdf8" stroke-opacity=".55"/><text x="61" y="20" text-anchor="middle" fill="#38bdf8" letter-spacing="1">AUTOMATION</text></g></g>
+    <g class="up d4"><g><circle cx="960" cy="195" r="108" fill="none" stroke="#8b5cf6" stroke-opacity=".45" stroke-dasharray="2 10"/><circle cx="1068" cy="195" r="5" fill="#8b5cf6"/><animateTransform attributeName="transform" type="rotate" from="0 960 195" to="360 960 195" dur="40s" repeatCount="indefinite"/></g><g><circle cx="960" cy="195" r="76" fill="none" stroke="#38bdf8" stroke-opacity=".45" stroke-dasharray="40 14"/><circle cx="1036" cy="195" r="5" fill="#38bdf8"/><animateTransform attributeName="transform" type="rotate" from="360 960 195" to="0 960 195" dur="26s" repeatCount="indefinite"/></g><g><circle cx="960" cy="195" r="46" fill="none" stroke="#f472b6" stroke-opacity=".45" stroke-dasharray="1 7"/><circle cx="1006" cy="195" r="5" fill="#f472b6"/><animateTransform attributeName="transform" type="rotate" from="0 960 195" to="360 960 195" dur="18s" repeatCount="indefinite"/></g><text x="960" y="204" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="26" font-weight="700" fill="#f4f4fb" fill-opacity=".9">&lt;/&gt;</text></g>
+
+    <g class="up d4" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="14" fill="#9a9ab5">
+      <circle class="pulse" cx="1004" cy="51" r="5" fill="#34d399"/>
+      <text x="1018" y="56">open to collabs</text>
+      <text x="1120" y="346" text-anchor="end">📍 Switzerland</text>
+    </g>
+    <rect x=".5" y=".5" width="1199" height="379" rx="24" fill="none" stroke="url(#brand)" stroke-opacity=".5"/>
+  </g>
+</svg>
