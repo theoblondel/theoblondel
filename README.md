@@ -2,6 +2,8 @@
   <img src="./assets/banner.svg" alt="Théo Blondel, founder and creative director of Kaury Studio" width="100%">
 </a>
 
+<img src="./assets/marquee.svg" alt="Branding, web design, video, photography, social media, motion, illustration" width="100%">
+
 <br>
 
 I'm **Théo**, a Swiss designer, illustrator and creative director. I founded **[Kaury Studio](https://kaury.studio)** in Vevey to give brands real character: identity, websites, video, photography and social media, all under one roof. I work hands-on on every project.
@@ -33,9 +35,14 @@ This GitHub is where the code side lives: the studio's websites, client portals 
 
 <br>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/theoblondel/theoblondel/output/snake-dark.svg">
+  <img alt="Kaury-orange snake eating my GitHub contributions" src="https://raw.githubusercontent.com/theoblondel/theoblondel/output/snake-light.svg" width="100%">
+</picture>
+
 ### 🟠 Let's talk
 
-<a href="https://kaury.studio"><img src="https://img.shields.io/badge/kaury.studio-F56E2E?style=for-the-badge&logoColor=F1E8CB" alt="kaury.studio"></a>
+<a href="https://kaury.studio"><img src="https://img.shields.io/badge/kaury.studio-F56E2E?style=for-the-badge" alt="kaury.studio"></a>
 <a href="mailto:hello@kaury.studio"><img src="https://img.shields.io/badge/hello@kaury.studio-1C1A1A?style=for-the-badge&logo=maildotru&logoColor=F1E8CB" alt="Email"></a>
 <a href="https://www.instagram.com/kaury.studio/"><img src="https://img.shields.io/badge/Instagram-1C1A1A?style=for-the-badge&logo=instagram&logoColor=F1E8CB" alt="Instagram"></a>
 <a href="https://www.behance.net/kaurystudio"><img src="https://img.shields.io/badge/Behance-1C1A1A?style=for-the-badge&logo=behance&logoColor=F1E8CB" alt="Behance"></a>

@@ -1,0 +1,30 @@
+name: Snake aux couleurs Kaury
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  snake:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake-light.svg?color_snake=#F56E2E&color_dots=#EAE3CF,#F9C9A8,#F7A06F,#F56E2E,#A83E0D
+            dist/snake-dark.svg?color_snake=#F56E2E&color_dots=#262322,#5A2A16,#A83E0D,#F56E2E,#F1E8CB
+
+      - uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
