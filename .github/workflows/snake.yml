@@ -5,7 +5,7 @@ on:
     - cron: "17 3 * * *"
   workflow_dispatch:
   push:
-    branches: [main, claude/peaceful-feynman-kkut99]
+    branches: [main]
 
 permissions:
   contents: write
