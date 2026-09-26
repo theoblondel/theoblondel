@@ -1,5 +1,10 @@
 <p align="center">
-  <a href="https://hermes-agent.nousresearch.com/"><img src="assets/readme/hero.svg" alt="Hermes Agent, the self-improving AI agent built by Nous Research" width="100%"></a>
+  <a href="https://hermes-agent.nousresearch.com/">
+    <picture>
+      <source srcset="assets/readme/hero.webp" type="image/webp">
+      <img src="assets/readme/hero.svg" alt="Hermes Agent, the self-improving AI agent built by Nous Research" width="100%">
+    </picture>
+  </a>
 </p>
 
 <h1 align="center">Hermes Agent ☤</h1>
@@ -34,6 +39,10 @@
 **The self-improving AI agent built by [Nous Research](https://nousresearch.com).** It's the only agent with a built-in learning loop — it creates skills from experience, improves them during use, nudges itself to persist knowledge, searches its own past conversations, and builds a deepening model of who you are across sessions. Run it on a $5 VPS, a GPU cluster, or serverless infrastructure that costs nearly nothing when idle. It's not tied to your laptop — talk to it from Telegram while it works on a cloud VM.
 
 Use any model you want — [Nous Portal](https://portal.nousresearch.com), OpenRouter, OpenAI, your own endpoint, and [many others](https://hermes-agent.nousresearch.com/docs/integrations/providers). Switch with `hermes model` — no code changes, no lock-in.
+
+<p align="center">
+  <img src="assets/readme/loop.svg" alt="The learning loop: creates skills from experience, improves them during use, persists knowledge, searches its past conversations, and models who you are" width="100%">
+</p>
 
 <p align="center">
   <img src="assets/readme/stats.svg" alt="40+ tools, 7 terminal backends, 300+ models on Nous Portal, no lock-in" width="100%">
@@ -196,7 +205,7 @@ hermes doctor       # Diagnose any issues
 
 <table>
   <tr>
-    <td colspan="2"><img src="website/static/img/docs/tui-session-orchestrator/session-orchestrator.png" alt="Session orchestrator in the Hermes TUI"></td>
+    <td colspan="2"><img src="assets/readme/session-orchestrator.webp" alt="Session orchestrator in the Hermes TUI"></td>
   </tr>
   <tr>
     <td width="50%"><img src="website/static/img/dashboard/admin-sessions.png" alt="Web dashboard: sessions"></td>
@@ -345,5 +354,10 @@ Built by [Nous Research](https://nousresearch.com).
 <br>
 
 <p align="center">
-  <a href="https://nousresearch.com"><img src="assets/readme/footer.svg" alt="Built by Nous Research" width="100%"></a>
+  <a href="https://nousresearch.com">
+    <picture>
+      <source srcset="assets/readme/footer.webp" type="image/webp">
+      <img src="assets/readme/footer.svg" alt="Built by Nous Research" width="100%">
+    </picture>
+  </a>
 </p>
